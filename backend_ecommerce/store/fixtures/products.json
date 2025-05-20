@@ -1,0 +1,43 @@
+[
+    {
+      "model": "store.category",
+      "pk": 1,
+      "fields": {
+        "name": "Laptop",
+        "slug": "laptop"
+      }
+    },
+    {
+      "model": "store.category",
+      "pk": 2,
+      "fields": {
+        "name": "Điện thoại",
+        "slug": "dien-thoai"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 1,
+      "fields": {
+        "name": "Asus Vivobook 14",
+        "description": "Laptop 14 inch, RAM 8GB, SSD 512GB, chip Intel i5",
+        "category": 1,
+        "price": "12990000.00",
+        "stock": 10,
+        "is_available": true
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 2,
+      "fields": {
+        "name": "iPhone 13 128GB",
+        "description": "Màn hình OLED 6.1 inch, camera kép, chip A15 Bionic",
+        "category": 2,
+        "price": "19990000.00",
+        "stock": 5,
+        "is_available": true
+      }
+    }
+  ]
+  
